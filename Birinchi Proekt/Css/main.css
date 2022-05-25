@@ -1,0 +1,398 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    /* scroll-behavior: smooth; */
+}
+body {
+    font-weight: 400;
+    font-family: "DM Sans", "Arial", sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(25, 25, 25, 1);
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 70px;
+    padding-left: 70px;
+
+}
+
+/* Global Styles End */
+
+/* Header Styles  */
+
+.Site-Header {
+    padding: 26px 0;
+}
+.site-header-container {
+    width: 100%;
+    max-width: 1380px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.SIte-header-img {
+    width: 159px;
+    height: 32px;
+}
+.site-header-item {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 40px;
+}
+.Site-header-item-link {
+    font-size: 17px;
+    line-height: 27px;
+    color: rgb(255, 255, 255)
+}
+.Site-Header-link {
+    text-decoration: none;
+    color: #fff;
+}
+.Site-Header-link:hover {
+    color:rgba(17, 141, 168, 1)
+}
+.Site-header-item-link:not(:last-child) {
+    margin-right: 40px;
+}
+
+/* Header Styles End */ 
+/* HERO SECTION STYLES */
+.Hero-Section {
+}
+.Hero-Section-container {
+    display: flex;  
+    align-items:center;
+    justify-content: flex-start;
+}
+.hero-section-img {
+    margin-top: 40px;
+    border-radius: 12px;
+    width: 650px;
+    height: 873px;
+
+}
+.hero-section-wrapper {
+
+}
+.Site-Header-title {
+    margin-left: 60px;
+    font-weight: 400;
+    font-family: "DM Sans", "Arial", sans-serif;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: rgba(255, 255, 255,1);
+
+}
+.hero-section-text {
+    color: rgba(255, 255, 255,1);
+    font-weight: 400;
+    font-family: "DM Sans", "Arial", sans-serif;
+    margin: 90px 572px 16px 82px;
+    font-size: 15px;
+    line-height: 24px;
+    width: 66px;
+    height: 24px;
+}
+.Hero-Section-Social-Media {
+    margin-left: 82px;
+    list-style-type: none;
+    display: flex;
+}
+.Hero-Section-Item   {  
+    margin-right: 17.7px;
+}
+.hero-section-icon {
+    width: 32px;
+    height: 32px;
+}
+/* HERO SECTION STYLES END*/
+/* episodes-section-wrapper-styles */
+.episodes-section {
+}
+.episodes-section-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 93px;
+    margin-bottom: 66px;
+    align-items:center;
+}
+.episodes-section-title {
+    font-weight: 400;
+    font-family: "DM Sans", "Arial", sans-serif;
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: 3px;
+    color: #fff;
+
+}
+.episodes-section-btn {
+    padding: 12px 15px 12px 20px;
+    background-color: #118da8;
+    color:#fff;
+    border-radius:6px;
+    text-decoration: none;
+}
+.episodes-section-container-1 {
+    width: 1300px;
+    height: 545px;
+    background-color: #000;
+    border-radius: 32px;
+    display: flex;
+    padding: 40px 0 40px 40px;
+    margin-bottom: 60px;
+}
+/* .episodes-section-container-2{
+    margin-bottom: px;
+} */
+.episodes-section-container-3{
+    margin-bottom: 260px;
+}
+.episodes-section-1-img {
+    /* margin: 40px 0 40px 40px; */
+}
+.episodes-section-1-wrapper {
+    padding-left: 53px;
+    color: #fff;
+}
+.episodes-section-1-btn {
+    padding: 0px 16px;
+    background-color: #191919;
+    color: #fff;
+    text-decoration: none;
+    /* margin-bottom: 48px; */
+}
+.episodes-section-1-name {
+    margin-top: 48px;
+    color: #118da8;
+    margin-bottom: 18px;
+    font-size: 17px;
+    line-height: 27px;
+    
+}
+.episodes-section-1-title {
+    font-family: "DM Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    margin-bottom: 28px;
+}
+.episodes-section-1-text {
+    margin-bottom: 30px;
+    
+}
+.episodes-section-1-btn1{
+    padding: 12px 15px 12px 20px;
+    background-color:  #118da8;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 18px;
+}
+/* episodes-section-wrapper-styles end*/
+/* jacob section styles */
+.jacob-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jacob-section-wrapper {
+    color: #fff;
+
+}
+.jacob-section-span {
+    width: 100px;
+    height: 100px;
+    background-color:rgba(17, 141,168, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px 24px 40px 17px;
+    margin-bottom: 20px;
+}
+.jacob-section-name {
+    font-family: "DM Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color:rgba(17, 141,168, 1);
+}
+.jacob-section-title {
+    font-family: "DM Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
+    letter-spacing: 3px;
+    margin-bottom: 28px;
+}
+.jacob-section-text-1 {
+    margin-bottom: 33px;
+}
+.jacob-section-img{
+    border-radius:12px;
+    margin-bottom: 201px;
+}
+/* jacob section styles end */
+.form-container {
+    width: 1300px;
+    height: 387px;
+    background-color: #000;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.form-text-wrapper {
+    padding: 59px 0px 143px 60px;
+}
+.form-name {
+    font-family: "DM Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118da8;
+}
+.form-section-title {
+    font-family: "DM Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+}
+.form-section-form-wrapper {
+}
+.form-section-form-text1 {
+    padding: 26px 438px 27px 19px;
+    background-color: #191919;
+    width: 522px;
+    height: 82px;
+    margin-top: 86px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.form-section-form-text2 {
+    padding: 26px 443px 27px 19px;
+    background-color: #191919;
+    width: 522px;
+    height: 82px;
+    border-radius: 6px;
+    margin-bottom: 29px;
+}
+.form-section-form-btn {
+    padding: 9px 15px 10px 19px;
+    background-color: #118da8;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Stars Section Styles */
+.Stars-Section-container {
+    width: 100%;
+    height: 701px;
+}
+.Stars-Section-List {
+    list-style-type: none;
+    display: flex;
+}
+.Stars-Section-item:not(:last-child) {
+    margin-right: 16px;
+}
+.Stars-Section-item {
+}
+.Stars-section-item-wrapper {
+    padding: 54px 60px 51px 50px;
+    background-color: #000;
+    width: 423px;
+    height: 321px;
+    color: #fff;
+    border-radius: 32px;
+}
+.Stars-Section-img {
+    margin-bottom: 22px;
+}
+.Stars-Section-title {
+    font-size: 36px;
+    line-height: 44px;
+    color: #fff;
+    margin-bottom: 19px;
+}
+.Stars-Section-Text {
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 51px;
+}
+.Stars-Section-Item-Wrapper1 {
+    height: 364px;
+    width: 423px;
+}
+.stars-section-list2{
+    margin-bottom: 16px;
+}
+
+/* Stars Section Styles End */
+
+/* Footer Section Styles */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 201px;
+}
+.Fotter-Section-Wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.Footer-Section-Logo {
+    margin-bottom: 26px;
+}
+.Footer-Section-List1 {
+    list-style-type: none;
+}
+.Footer-Section-Link {
+    text-decoration: none;
+    color: #fff;
+}
+.Footer-Section_List2 {
+}
+.Footer-section-item {
+    list-style-type: none;
+}
+.Footer-Section-Ikons {
+    display: flex;
+    list-style-type: none;
+    margin-right: 221px;
+}
+.Footer-Section-Item:not(:last-child) {
+    margin-right: 18px;
+}
+.Footer-Section-Item {
+}
+.Footer-Section-Item-link {
+}
+.Footer-section-icon {
+}
+
+/* Footer Section Styles End */
